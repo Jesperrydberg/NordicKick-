@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keps Merino (VM-utgåva) - Nordic Kick</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Nordic<span>Kick</span></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="produkt-1.html">Tröja No.1</a></li>
+                    <li><a href="produkt-2.html" class="active">Keps Merino</a></li>
+                    <li><a href="nyhetsbrev.html">Nyhetsbrev</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="product-split">
+            
+            <div>
+                <div class="image-placeholder" style="height: 500px;">
+                    <span>[Bild: Närbild på Keps Merino]</span>
+                </div>
+                <p style="margin-top: 1.5rem; color: var(--text-muted); font-size: 0.9rem;">
+                    Färg: Skandinavisk Midnattsblå. Justerbart spänne i matt metall på baksidan. 
+                </p>
+            </div>
+
+            <div>
+                <span style="text-transform: uppercase; font-size: 0.8rem; letter-spacing: 2px; color: var(--text-muted);">Premium Kollektion</span>
+                <h1 style="font-weight: 300; margin: 0.5rem 0 1rem 0;">Keps Merino (VM-utgåva)</h1>
+                <p class="price" style="font-size: 1.5rem;">399 kr</p>
+                
+                <p style="margin-bottom: 2rem; color: var(--text-muted);">
+                    Minimalistisk 6-panel keps i mjuk merinoull. Logotypen är broderad med en subtil, mörk tråd som endast syns i rätt ljusvinkel. Helt fri från skrikiga varumärkesloggor.
+                </p>
+
+                <div class="form-container" id="hubspot-placeholder-2">
+                    <h3 style="font-weight: 400; margin-bottom: 1.5rem;">Förboka ditt exemplar</h3>
+                    
+                    <form id="prod2-form" action="thank-you.html" method="GET">
+                        <div class="form-group">
+                            <label for="p2-name">Namn</label>
+                            <input type="text" id="p2-name" name="name" required placeholder="Erik Nilsson">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="p2-email">E-post</label>
+                            <input type="email" id="p2-email" name="email" required placeholder="erik@gmail.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="p2-qty">Antal</label>
+                            <select id="p2-qty" name="quantity" required>
+                                <option value="1">1 st</option>
+                                <option value="2">2 st</option>
+                                <option value="3">3 st</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn">Förboka nu</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 NORDIC KICK. Skapad för kursen Analys och effektmätning.</p>
+    </footer>
+</body>
+</html>

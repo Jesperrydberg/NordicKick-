@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VM-Tröja No.1 - Nordic Kick</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Nordic<span>Kick</span></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="produkt-1.html" class="active">Tröja No.1</a></li>
+                    <li><a href="produkt-2.html">Keps Merino</a></li>
+                    <li><a href="nyhetsbrev.html">Nyhetsbrev</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="product-split">
+            
+            <div>
+                <div class="image-placeholder" style="height: 500px;">
+                    <span>[Bild: VM-Tröja No. 1 i miljö]</span>
+                </div>
+                <p style="margin-top: 1.5rem; color: var(--text-muted); font-size: 0.9rem;">
+                    Vår modell är 185 cm lång och bär storlek M. Tröjan är tillverkad i Portugal av 100% certifierad ekologisk bomull (240 GSM).
+                </p>
+            </div>
+
+            <div>
+                <span style="text-transform: uppercase; font-size: 0.8rem; letter-spacing: 2px; color: var(--text-muted);">Limiterad Upplaga</span>
+                <h1 style="font-weight: 300; margin: 0.5rem 0 1rem 0;">VM-Tröja No. 1</h1>
+                <p class="price" style="font-size: 1.5rem;">799 kr</p>
+                
+                <p style="margin-bottom: 2rem; color: var(--text-muted);">
+                    Denna tröja produceras endast i 300 numrerade exemplar inför VM. Genom att skicka in en intresseanmälan säkrar du din plats i kön när försäljningen öppnar. Perfekt för UTM-spårning och målgruppsanalys.
+                </p>
+
+                <div class="form-container" id="hubspot-placeholder-1">
+                    <h3 style="font-weight: 400; margin-bottom: 1.5rem;">Reservera din storlek</h3>
+                    
+                    <form id="prod1-form" action="thank-you.html" method="GET">
+                        <div class="form-group">
+                            <label for="p1-name">Fullständigt namn</label>
+                            <input type="text" id="p1-name" name="name" required placeholder="Anna Andersson">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="p1-email">E-postadress</label>
+                            <input type="email" id="p1-email" name="email" required placeholder="anna@foretag.se">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="p1-size">Välj önskad storlek</label>
+                            <select id="p1-size" name="size" required>
+                                <option value="">Välj storlek...</option>
+                                <option value="S">Small</option>
+                                <option value="M">Medium</option>
+                                <option value="L">Large</option>
+                                <option value="XL">X-Large</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn">Skicka intresseanmälan</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 NORDIC KICK. Skapad för kursen Analys och effektmätning.</p>
+    </footer>
+
+</body>
+</html>

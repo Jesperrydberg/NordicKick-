@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakta oss - Nordic Kick</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Nordic<span>Kick</span></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="produkt-1.html">Tröja No.1</a></li>
+                    <li><a href="produkt-2.html">Keps Merino</a></li>
+                    <li><a href="nyhetsbrev.html">Nyhetsbrev</a></li>
+                    <li><a href="kontakt.html" class="active">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main style="max-width: 700px;">
+        <div class="hero">
+            <h1>Kontakta Support & B2B</h1>
+            <p>Frågor gällande storlekar, företagsbeställningar inför VM eller pressförfrågningar? Använd formuläret nedan så svarar vi inom 24 timmar.</p>
+        </div>
+
+        <div class="image-placeholder" style="height: 200px; margin-bottom: 2rem;">
+            <span>[Bild: Detaljbild på tyg och sömmar]</span>
+        </div>
+
+        <div class="form-container">
+            <form action="thank-you.html" method="GET">
+                <div class="form-group">
+                    <label for="contact-name">Namn</label>
+                    <input type="text" id="contact-name" name="name" required placeholder="Ditt namn">
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-email">E-postadress</label>
+                    <input type="email" id="contact-email" name="email" required placeholder="din.email@adress.se">
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-message">Meddelande</label>
+                    <textarea id="contact-message" name="message" rows="5" required placeholder="Hur kan vi hjälpa dig?"></textarea>
+                </div>
+
+                <button type="submit" class="btn">Skicka meddelande</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 NORDIC KICK. Skapad för kursen Analys och effektmätning.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gå med i Pre-launch listan - Nordic Kick</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Nordic<span>Kick</span></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="produkt-1.html">Tröja No.1</a></li>
+                    <li><a href="produkt-2.html">Keps Merino</a></li>
+                    <li><a href="nyhetsbrev.html" class="active">Nyhetsbrev</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main style="max-width: 600px;">
+        <div class="hero">
+            <h1>Pre-Launch Community</h1>
+            <p>Våra kollektioner säljer ofta slut på några minuter. Genom att prenumerera får du ett unikat lösenord till webbplatsen 24 timmar innan det officiella släppet inför fotbolls-VM.</p>
+        </div>
+
+        <div class="image-placeholder" style="height: 200px; margin-bottom: 2rem;">
+            <span>[Bild: Estetiskt moodboard för kollektionen]</span>
+        </div>
+
+        <div class="form-container" id="mailchimp-form-container">
+            <h3 style="font-weight: 400; margin-bottom: 1.5rem; text-align: center;">Prenumerera</h3>
+            
+            <form action="thank-you.html" method="GET">
+                <div class="form-group">
+                    <label for="newsletter-email">E-postadress</label>
+                    <input type="email" id="newsletter-email" name="email" required placeholder="namn@domän.se">
+                </div>
+                
+                <div class="form-group" style="display: flex; align-items: flex-start; gap: 0.5rem;">
+                    <input type="checkbox" id="consent" required style="margin-top: 0.3rem;">
+                    <label for="consent" style="text-transform: none; font-weight: normal; color: var(--text-muted); font-size: 0.8rem;">
+                        Jag godkänner att Nordic Kick skickar marknadsföring och information inför VM-släppet.
+                    </label>
+                </div>
+
+                <button type="submit" class="btn">Gå med i listan</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 NORDIC KICK. Skapad för kursen Analys och effektmätning.</p>
+    </footer>
+
+</body>
+</html>
