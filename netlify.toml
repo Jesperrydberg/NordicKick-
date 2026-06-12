@@ -1,0 +1,3 @@
+[build]
+  publish = "nordic-kick-vm-merch"
+  command = ""
